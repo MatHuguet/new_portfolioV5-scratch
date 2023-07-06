@@ -1,0 +1,9 @@
+main {
+    height: 100vh;
+}
+
+.main-container {
+    display: flex;
+    padding-top: 2.5rem;
+
+}

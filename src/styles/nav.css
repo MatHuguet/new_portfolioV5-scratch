@@ -1,0 +1,39 @@
+nav {
+    display: flex;
+    position: relative;
+    z-index: 2;
+    flex-grow: 1;
+}
+
+.nav-container {
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.nav-item > h4 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2rem;
+    padding-left: 8rem;
+    padding-right: 10rem;
+    letter-spacing: 3px;
+    user-select: none;
+
+}
+
+
+.nav-item {    
+    width: 100%;
+    transition: .2s ease;
+    cursor: pointer;
+    padding-block: .2rem;
+}
+
+.nav-item:hover {
+    background-color: rgba(78, 78, 78);
+    color: white;
+    transition: .2s ease;
+    width: 100%;
+}
