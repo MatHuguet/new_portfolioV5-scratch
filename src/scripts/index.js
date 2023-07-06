@@ -1,4 +1,3 @@
-
 const navItem = document.getElementsByClassName('nav-item');
 const sideTitle = document.getElementById('side-title');
 sideTitle.innerText = 'A PROPOS';
@@ -14,5 +13,7 @@ attr.forEach(element => {
     })
 
 });
+
+
 
 
