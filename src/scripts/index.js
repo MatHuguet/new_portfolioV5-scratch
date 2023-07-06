@@ -1,13 +1,18 @@
 
-const navItem = document.getElementsByClassName('nav-item')
-function getNavTarget(targets){
-    for (let target of targets){
-        target.addEventListener('click', function(e){
-            console.log('hello');
-            return e.target.innerText
+const navItem = document.getElementsByClassName('nav-item');
+const sideTitle = document.getElementById('side-title');
+sideTitle.innerText = 'A PROPOS';
 
-        })
-    }
-}
-console.log('Hello world')
-getNavTarget(navItem);
+
+     
+const attr = document.querySelectorAll('.nav-item');
+attr.forEach(element => {
+    element.addEventListener('click', () => {
+        sideTitle.innerText = element.innerText;
+        document.querySelector('.active')?.classList.remove('active');
+        element.classList.add('active');
+    })
+
+});
+
+
