@@ -9,6 +9,8 @@
 }
 
 .section-title {
+    position: relative;
+    z-index: -2;
     display: flex;
     flex-grow: 1;
 }
@@ -30,6 +32,28 @@
 .section-content {
     display: flex;
     flex-grow: 20;
+
+}
+
+@media screen and (max-width: 1440px) {
+    .content-container {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-grow: 4;
+        padding-left: 2rem;
+
+    }
+    .section-title {
+        position: relative;
+        z-index: -2;
+        display: flex;
+        flex-grow: 1;
+        margin-left: 5rem;
+
+    }
+
 
 }
 

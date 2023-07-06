@@ -1,0 +1,20 @@
+.cursor {
+    width: 70px;
+    height: 70px;
+    background-color: #383838;
+    transition: all 50ms ease-out;
+    position: fixed;
+    pointer-events: none;
+    left: 0;
+    top: 0;
+    transform: translate(calc(-50% + 15px), -50%);
+    mix-blend-mode: hue;
+}
+
+.cursor:after {
+    content: "<";
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    background: #000;
+}
