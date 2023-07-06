@@ -3,3 +3,10 @@
 @import url('./header-style.css');
 @import url('./nav.css');
 @import url('./content.css');
+/*========MEDIAQUERY=================================*/
+/*SMALLER SCREEN====================================*/
+
+/* @import url('./resp/smaller-screen/header_s-screen.css') */
+
+
+/*==========================================================================*/
