@@ -1,0 +1,125 @@
+@media screen and (min-width: 1440px){
+    /*
+font-family: 'Oswald', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    cursor: copy;
+
+}
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    position: relative;
+    z-index: 10;
+    width: 100%;
+    height: 22rem;
+    border-bottom: solid 1px rgb(3, 3, 3);
+}
+
+.profile-pic {
+    display: flex;
+    flex-grow: 3;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    display: flex;
+    position: relative;
+    z-index: 10;
+    height: 100%;
+    flex-grow: 6;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 8px;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    color: black;
+    background: #ffffff00;
+}
+
+h1 {
+    position: relative;
+    z-index: 2;
+   font-family: 'Oswald', sans-serif;
+    font-weight: 900;
+    font-size: 4.4rem;
+    letter-spacing: 8px;
+    margin-bottom: .8rem;
+    transform: translateY(-1rem);
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0);
+    
+}
+
+.first-name {
+    position: relative;
+    z-index: 1;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 900;
+    font-size: 4rem;
+    background: #ffffff00;
+}
+
+h2, h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    background: #ffffff00;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.6rem;
+}
+
+.social {
+    display: flex;
+    justify-items: center;
+    align-content: center;
+    flex-grow: 3;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.social-list {
+    list-style-type: none;
+}
+
+
+.social-list-item {
+    text-align: center;
+}
+
+img {
+    height: 30px;
+}
+
+
+
+ul > li > img > .github, ul > li > img > .instagram {
+    border-radius: 10px;
+}
+
+
+    
+}

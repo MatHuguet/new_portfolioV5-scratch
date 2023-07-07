@@ -1,0 +1,16 @@
+@media screen and (max-width: 450px){
+    
+    nav {
+        display: flex;
+        flex-grow: 1;
+    }
+
+    .nav-container {
+        display: none;
+        position: fixed;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+    }
+
+}

@@ -1,3 +1,7 @@
+@media screen and (min-width: 1440px){
+    
+
+
 nav {
     display: flex;
     flex-grow: 1;
@@ -16,8 +20,8 @@ nav {
     position: inherit;
     z-index: 50;
     font-size: 2rem;
-    padding-left: 8rem;
-    padding-right: 10rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
     letter-spacing: 3px;
     user-select: none;
 
@@ -45,4 +49,6 @@ nav {
     color: white;
     transition: .2s ease;
     width: 100%;
+}
+
 }

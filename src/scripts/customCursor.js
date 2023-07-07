@@ -3,17 +3,18 @@ const sideNav = document.getElementsByClassName('nav-item');
 
 
 
-     
-const items = document.querySelectorAll('.nav-item');
-items.forEach(element => {
-    element.addEventListener('mouseenter', () => {
-        cursor.classList.add('cursor-hover');
-    })
-    element.addEventListener('mouseout', () => {
-        cursor.classList.remove('cursor-hover');
-    })
 
-});
+     
+// const items = document.querySelectorAll('.nav-item');
+// items.forEach(element => {
+//     element.addEventListener('mouseenter', () => {
+//         cursor.classList.add('cursor-hover');
+//     })
+
+
+// });
+
+
 
 
 const moveCursor = (e) => {
