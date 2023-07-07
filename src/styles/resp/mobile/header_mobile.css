@@ -1,19 +1,21 @@
 @media screen and (max-width: 450px){
+
+
+
     .container {
         display: flex;
         position: relative;
         z-index: 10;
         width: 100%;
-        height: 10rem;
-        box-shadow: 4px 2px 8px grey;
-        margin-top: 1rem;
+        height: 12rem;
+        box-shadow: 2px 2px 8px grey;
+        padding-top: 1rem;
     }
 
     .title {
         display: flex;
         position: relative;
         z-index: 2;
-        height: 100%;
         flex-grow: 4;
         flex-direction: column;
         justify-content: center;
@@ -28,11 +30,10 @@
         font-weight: 900;
         font-size: 1.4rem;
         letter-spacing: 8px;
-        margin-bottom: .8rem;
-        transform: translateY(-1rem);
         color: rgb(0, 0, 0);
         background-color: rgba(255, 255, 255, 0);
         padding-top: 1rem;
+        margin-bottom: 0;
         
     }
 
@@ -56,17 +57,22 @@
         letter-spacing: 2px;
         font-size: 1rem;
         font-weight: 400;
+        padding-left: 2.8rem;
+        padding-right: 2.8rem;
+        padding-bottom: .5rem;
     }
 
     .subpro-title {
-    font-size: .8rem;
+    font-size: 1rem;
     }
 
 
     
 
     img {
-        height: 12px;
+        height: 20px;
+        padding-right: .4rem;
+        padding-bottom: .5rem;
     }
 
     .social {
