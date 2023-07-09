@@ -6,7 +6,7 @@
         display: flex;
         position: relative;
         z-index: 10;
-        width: 100%;
+        width: 100vw;
         height: 12rem;
         box-shadow: 2px 2px 8px grey;
         padding-top: 1rem;
