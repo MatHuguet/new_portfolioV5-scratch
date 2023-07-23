@@ -1,0 +1,15 @@
+h2.content-head {
+    font-size: 2rem;
+}
+
+.exp-date p {
+    font-size: 1rem;
+    font-weight: 700;
+    border: solid 1px black;
+}
+
+.job-title p {
+    font-size: 5rem;
+    border: solid 1px red;
+}
+

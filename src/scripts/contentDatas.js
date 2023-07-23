@@ -1,7 +1,7 @@
 export const contentData = [
     {
     title: "about",
-    content: `<h2>A propos de moi</h2>
+    content: `<h2 class="content-head">A propos de moi</h2>
             <br></br>
             <p>Je suis Mathieu, développeur junior. Après plus d'une dizaine d'année dans l'hôtellerie, je me suis reconverti dans le développement web et web mobile depuis peu.</p>
             <br></br>
@@ -15,11 +15,9 @@ export const contentData = [
             <div class="job-section-container">
                 <div class="exp-date">
                     <p>Du 08/2022 à aujourd'hui</p>
-                    <br></br>
-
                 </div
-                <div class="job-title>
-                    <h3 class="cv-pro-title">Régisseur</h3>"
+                <div class="job-title">
+                    <p>Régisseur</p>
                 </div>
                 <div class="job-description">
                     <p>M'occuper d'un domaine</p>
