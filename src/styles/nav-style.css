@@ -30,13 +30,13 @@
 }
 
 .nav-item:hover {
-    background-color: rgba(78, 78, 78, 0.669);
+    background-color: rgba(49, 49, 49, 0.669);
     color: white;
     transition: .2s ease;
 }
 
 .active {
-    background-color: rgb(49, 49, 49);
+    background-color: rgb(0, 0, 0);
     color: white;
     transition: .2s ease;
 }
@@ -68,14 +68,14 @@
     }
     
     .nav-item:hover {
-        background-color: rgba(78, 78, 78, 0.669);
+        background-color: rgba(49, 49, 49, 0.669);
         color: white;
         transition: .2s ease;
     
     }
     
     .active {
-        background-color: rgb(49, 49, 49);
+        background-color: rgb(0, 0, 0);
         color: white;
         transition: .2s ease;
     }
@@ -110,14 +110,14 @@
     }
     
     .nav-item:hover {
-        background-color: rgba(78, 78, 78, 0.669);
+        background-color: rgba(49, 49, 49, 0.669);
         color: white;
         transition: .2s ease;
     
     }
     
     .active {
-        background-color: rgb(49, 49, 49);
+        background-color: rgb(0, 0, 0);
         color: white;
         transition: .2s ease;
     }
