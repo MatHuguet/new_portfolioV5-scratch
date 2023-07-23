@@ -1,15 +1,42 @@
-h2.content-head {
+.section-content {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    flex-grow: 20;
+    border: solid 1px green;
+}
+
+
+.section-content h2 {
     font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    text-align: start;
+    padding: 0;
 }
 
-.exp-date p {
-    font-size: 1rem;
-    font-weight: 700;
-    border: solid 1px black;
+.job-section-container {
+    border: solid 1px #ff0000;
+    display: flex;
+    flex-direction: column;
 }
 
-.job-title p {
-    font-size: 5rem;
-    border: solid 1px red;
+.section-content p {
+    font-size: 1.4rem;
+    font-family: 'Roboto', sans-serif;
 }
+
+/* .date {
+    background: #000;
+}
+*/
+
+p.exp-title {
+    display: flex;
+    background: #000;
+    text-align: left;
+}
+
+
 

@@ -10,32 +10,24 @@ export const contentData = [
     },
     {
     title: "cv",
-    content: `<h2>Expériences professionelles</h2>
-            <br></br>
+    content: `<h2 class="content-head">Expériences professionelles</h2>
             <div class="job-section-container">
-                <div class="exp-date">
-                    <p>Du 08/2022 à aujourd'hui</p>
-                </div
-                <div class="job-title">
+                    <p class="date">Du 08/2022 à aujourd'hui</p>
                     <p>Régisseur</p>
-                </div>
-                <div class="job-description">
                     <p>M'occuper d'un domaine</p>
-                </div>
             </div>
-            <br></br>
     `
     },
     {
     title: "skills",
-    content: `<h2>Hello skills</h2>`
+    content: `<h2 class="content-head">Hello skills</h2>`
     },
     {
     title: "portfolio",
-    content: `<h2>Hello portfolio</h2>`
+    content: `<h2 class="content-head">Hello portfolio</h2>`
     },
     {
     title: "contact",
-    content: `<h2>Hello contact</h2>`
+    content: `<h2 class="content-head">Hello contact</h2>`
     }
 ]
