@@ -3,7 +3,124 @@ font-family: 'Oswald', sans-serif;
 font-family: 'Roboto', sans-serif;
 */
 
-* {
+@media screen and (width < 900px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+        user-select: none; 
+    }
+
+    
+    .profile-pic {
+        flex-grow: 2;
+        margin-left: 1rem;
+    }
+
+    /*==========TITLES=================== */
+
+
+
+
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        z-index: 10;
+        width: 100%;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    
+
+
+    .title {
+        display: flex;
+        position: relative;
+        z-index: 0;
+        height: 100%;
+        flex-grow: 6;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+     
+    .first-name {
+        font-family: 'Oswald', sans-serif;
+        font-size: 2rem;
+        letter-spacing: .3rem;
+
+    }
+
+    .main-name {
+       font-family: 'Oswald', sans-serif;
+        font-weight: 900;
+        font-size: 1.9rem;
+        letter-spacing: 8px;
+
+        
+    }
+
+    .pro-title, .subpro-title {
+        font-family: 'Roboto', sans-serif;
+    }
+
+
+    .pro-title {
+        text-align: center;
+        font-size: 1.5rem;
+        font-weight: normal;
+        padding: 0.5rem 2rem;
+        padding-top: 1rem;
+
+    }
+  
+    .subpro-title {
+        font-size: 1.2rem;
+        letter-spacing: 6px;
+    }
+  
+    /* =========SOCIAL====================*/
+    .social {
+        display: flex;
+        justify-items: center;
+        align-content: center;
+        flex-grow: 2;
+        justify-content: center;
+        align-items: center;
+        margin-right: 1rem;
+    }
+    
+    .social-list {
+        list-style-type: none;
+    }  
+    
+    .social-list-item {
+        text-align: center;
+
+    }
+    
+    ul > li > img > .github, ul > li > img > .instagram {
+        border-radius: 10px;
+        
+    }
+
+    .icon {
+        width: 25px;
+    }
+
+    .github {
+        width: 23px;
+    }
+
+}
+
+
+
+
+/* * {
     margin: 0;
     padding: 0;
     user-select: none;
@@ -11,20 +128,11 @@ font-family: 'Roboto', sans-serif;
 }
 
 
-
-body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 .container {
     display: flex;
     position: relative;
     z-index: 10;
     width: 100%;
-    /* height: 20rem; */
-    /* border-bottom: solid 1px rgb(3, 3, 3); */
     margin-top: 6rem;
     margin-bottom: 6rem;
 }
@@ -46,7 +154,6 @@ body {
     justify-content: center;
     align-items: center;
     letter-spacing: 5px;
-    /* background: white; */
 }
 
 h1, h2, h3 {
@@ -117,23 +224,38 @@ ul > li > img > .github, ul > li > img > .instagram {
 
 .social > ul.social-list > .social-list-item > a > img {
     width: 50px;
-}
+} */
 
 /* ==========================================================================*/
 
-@media screen and (width < 900px) {
+@media screen and (width > 720px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+        user-select: none; 
+    }
+
+    
+    .profile-pic {
+        flex-grow: 2;
+        margin-left: 1rem;
+    }
 
     /*==========TITLES=================== */
 
+
+
+
     .container {
         display: flex;
+        justify-content: center;
+        align-items: center;
         position: relative;
         z-index: 10;
         width: 100%;
-        /* height: 20rem; */
-        /* border-bottom: solid 1px rgb(3, 3, 3); */
-        margin-top: 2rem;
-        margin-bottom: .5rem;
+        margin-top: 4rem;
+        margin-bottom: 4rem;
     }
     
 
@@ -143,39 +265,48 @@ ul > li > img > .github, ul > li > img > .instagram {
         position: relative;
         z-index: 0;
         height: 100%;
-        flex-grow: 6;
+        flex-grow: 4;
         flex-direction: column;
         justify-content: center;
         align-items: center;
 
     }
      
-    h1 {
+    .first-name {
+        font-family: 'Oswald', sans-serif;
+        font-size: 3rem;
+        letter-spacing: .8rem;
+
+    }
+
+    .main-name {
        font-family: 'Oswald', sans-serif;
         font-weight: 900;
-        font-size: 1.8rem;
+        font-size: 4.1rem;
         letter-spacing: 8px;
-        color: rgb(0, 0, 0);
-        margin: 0;
 
         
     }
-  
-    .first-name {
-        font-size: 1.8rem;
-        padding: 1rem;
-    }
- 
-    h2 {
-        font-size: 1rem;
-        padding: 0 1rem;
-    }
-  
-    h3 {
-        font-size: .8rem;
-        padding-bottom: .2rem;
+
+    .pro-title, .subpro-title {
+        font-family: 'Roboto', sans-serif;
     }
 
+
+    .pro-title {
+        text-align: center;
+        font-size: 2.2rem;
+        font-weight: normal;
+        padding: .5rem 4rem;
+        padding-top: 1rem;
+
+    }
+  
+    .subpro-title {
+        font-size: 2rem;
+        letter-spacing: 6px;
+    }
+  
     /* =========SOCIAL====================*/
     .social {
         display: flex;
@@ -201,9 +332,241 @@ ul > li > img > .github, ul > li > img > .instagram {
         
     }
 
-    .social > ul.social-list > .social-list-item > a > img {
-        border: solid 1px green;
-        width: 35px;
+    .icon {
+        width: 55px;
+    }
+
+    .github {
+        width: 48px;
     }
 }
 
+
+@media screen and (width > 900px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+        user-select: none; 
+    }
+
+    
+    .profile-pic {
+        flex-grow: 2;
+        margin-left: 1rem;
+    }
+
+    /*==========TITLES=================== */
+
+
+
+
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        z-index: 10;
+        width: 100%;
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+    }
+    
+
+
+    .title {
+        display: flex;
+        position: relative;
+        z-index: 0;
+        height: 100%;
+        flex-grow: 4;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+     
+    .first-name {
+        font-family: 'Oswald', sans-serif;
+        font-size: 5rem;
+        letter-spacing: .8rem;
+
+    }
+
+    .main-name {
+       font-family: 'Oswald', sans-serif;
+        font-weight: 900;
+        font-size: 6rem;
+        letter-spacing: 8px;
+
+        
+    }
+
+    .pro-title, .subpro-title {
+        font-family: 'Roboto', sans-serif;
+    }
+
+
+    .pro-title {
+        text-align: center;
+        font-size: 3rem;
+        font-weight: normal;
+        padding: 0.5rem 2rem;
+        padding-top: 1rem;
+
+    }
+  
+    .subpro-title {
+        font-size: 2.4rem;
+        letter-spacing: 6px;
+    }
+  
+    /* =========SOCIAL====================*/
+    .social {
+        display: flex;
+        justify-items: center;
+        align-content: center;
+        flex-grow: 2;
+        justify-content: center;
+        align-items: center;
+        margin-right: 1rem;
+    }
+    
+    .social-list {
+        list-style-type: none;
+    }  
+    
+    .social-list-item {
+        text-align: center;
+
+    }
+    
+    ul > li > img > .github, ul > li > img > .instagram {
+        border-radius: 10px;
+        
+    }
+
+    .icon {
+        width: 55px;
+    }
+
+    .github {
+        width: 48px;
+    }
+}
+
+
+@media screen and (width > 1900px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+        user-select: none; 
+    }
+
+    
+    .profile-pic {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-grow: 2;
+    }
+
+    /*==========TITLES=================== */
+
+
+
+
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        z-index: 10;
+        width: 100%;
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+    }
+    
+
+
+    .title {
+        display: flex;
+        position: relative;
+        z-index: 0;
+        height: 100%;
+        flex-grow: 4;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+     
+    .first-name {
+        font-family: 'Oswald', sans-serif;
+        font-size: 6.4rem;
+        letter-spacing: .9rem;
+
+    }
+
+    .main-name {
+       font-family: 'Oswald', sans-serif;
+        font-weight: 900;
+        font-size: 8rem;
+        letter-spacing: 8px;
+
+        
+    }
+
+    .pro-title, .subpro-title {
+        font-family: 'Roboto', sans-serif;
+    }
+
+
+    .pro-title {
+        text-align: center;
+        font-size: 3rem;
+        font-weight: normal;
+        padding: 1rem 2rem;
+        padding-top: 1rem;
+
+    }
+  
+    .subpro-title {
+        font-size: 2.4rem;
+        letter-spacing: 6px;
+    }
+  
+    /* =========SOCIAL====================*/
+    .social {
+        display: flex;
+        justify-items: center;
+        align-content: center;
+        flex-grow: 2;
+        justify-content: center;
+        align-items: center;
+        margin-right: 1rem;
+    }
+    
+    .social-list {
+        list-style-type: none;
+    }  
+    
+    .social-list-item {
+        text-align: center;
+
+    }
+    
+    ul > li > img > .github, ul > li > img > .instagram {
+        border-radius: 10px;
+        
+    }
+
+    .icon {
+        width: 62px;
+    }
+
+    .github {
+        width: 52px;
+    }
+}
