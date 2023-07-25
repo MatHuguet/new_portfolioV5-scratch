@@ -2,6 +2,7 @@
     .main-container {
         padding-top: 2rem;
         display: flex;
+        margin-bottom: 5rem;
     }
 
     .content-container {
@@ -35,7 +36,7 @@
     .section-content {
         display: flex;
         flex-direction: column;
-        padding-left: .5rem;
+        padding-left: .8rem;
         padding-right: 1.4rem;
         
     
@@ -43,10 +44,13 @@
     /* =====CONTENT=============*/
 
 
-
+.paragraph-about p.p-about {
+    font-size: 1rem;
+    padding-right: 2rem;
+}
 
  .content-head {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     font-weight: bold;
     font-family: 'Oswald', sans-serif;
     text-align: start;
@@ -55,7 +59,6 @@
 }
 
 .job-section-container {
-    border: solid 1px #ff0000;
     display: flex;
     flex-direction: column;
 }
@@ -65,16 +68,38 @@
     font-family: 'Roboto', sans-serif;
 }
 
- .date {
-    background: #000;
+p.date {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    text-decoration: underline;
+    font-size: 1rem;
+    margin-bottom: .5rem;
 }
 
 
 p.exp-title {
+    font-family: 'Oswald', sans-serif;
     display: flex;
-    background: #000;
     text-align: left;
+    font-size: 1.5rem;
 } 
+
+ul.job-desc {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    list-style-type: square;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    line-height: 1rem;
+}
+
+ul.job-desc li {
+    line-height: 1.2rem;
+    padding-right: 2rem;
+    margin-left: 1rem;
+}
+
+
 }
 
 /* ======================================================================*/
@@ -85,21 +110,22 @@ p.exp-title {
     .main-container {
         padding-top: 1rem;
         display: flex;
+        margin-bottom: 5rem;
     }
 
     .content-container {
         display: flex;
-        justify-content: center;
+        justify-content: flex-start;
         align-items: flex-start;
         flex-grow: 2;
     }
     
-    .section-title {
+    /* .section-title {
         z-index: -50;
         display: flex;
         align-items: flex-start;
         flex-grow: 1;
-    }
+    } */
     
     .side-title {
         writing-mode: vertical-rl;
@@ -108,10 +134,12 @@ p.exp-title {
         font-weight: 900;
         font-size: 6rem;
         display: flex;
+        justify-content: end;
         letter-spacing: -0.2rem;
         text-rendering: optimizeSpeed;
         color: rgba(205, 205, 205, 0.772);
         user-select: none;
+        flex-grow: 1;
     }
     
     
@@ -119,13 +147,18 @@ p.exp-title {
         display: flex;
         flex-direction: column;
         white-space: break-spaces;
-        padding: 0 2rem;
+        margin-left: 2rem;
     
     }
+
+    /* ==================================================================*/
     /* =====CONTENT=============*/
 
 
-
+    .paragraph-about p.p-about {
+        font-size: 1.4rem;
+        padding-right: 4rem;
+    }
 
  .content-head {
     font-size: 2rem;
@@ -133,7 +166,10 @@ p.exp-title {
     font-family: 'Oswald', sans-serif;
     text-align: start;
     padding: 0;
+    padding-bottom: 1.5rem;
 }
+
+/*=========CV CONTENT============= */
 
 .job-section-container {
     display: flex;
@@ -145,16 +181,40 @@ p.exp-title {
     font-family: 'Roboto', sans-serif;
 }
 
- .date {
-    background: #000;
+p.date {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    text-decoration: underline;
+    font-size: 1.5rem;
+    margin-bottom: .5rem;
 }
 
 
 p.exp-title {
+    font-family: 'Oswald', sans-serif;
     display: flex;
-    background: #000;
     text-align: left;
+    font-size: 2rem;
+    padding-right: 1rem;
 } 
+
+ul.job-desc {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.4rem;
+    list-style-type: square;
+    margin-bottom: 1rem;
+    line-height: 1rem;
+}
+
+ul.job-desc li {
+    line-height: 1.6rem;
+    padding-right: 10rem;
+    margin-left: 1.5rem;
+    font-size: 1.8rem;
+}
+
+
+/* ================================ */
 }
 
 
@@ -166,6 +226,7 @@ p.exp-title {
         display: flex;
         padding: 0;
         margin-top: 2rem;
+        margin-bottom: 10rem;
     }
 
     .content-container {
@@ -202,9 +263,72 @@ p.exp-title {
         white-space: break-spaces;
     
     }
+
+        /* ==================================================================*/
+    /* =====CONTENT=============*/
+
+.paragraph-about p.p-about {
+        font-size: 2rem;
+        padding-right: 4.6rem;
+    }
+
+
+ .content-head {
+    font-size: 2.8rem;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    text-align: start;
+    padding: 0;
+    padding-bottom: 1.5rem;
+}
+
+/*=========CV CONTENT============= */
+
+.job-section-container {
+    display: flex;
+    flex-direction: column;
+}
+
+p.date {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    text-decoration: underline;
+    font-size: 1.8rem;
+    margin-bottom: .5rem;
+}
+
+
+p.exp-title {
+    font-family: 'Oswald', sans-serif;
+    display: flex;
+    text-align: left;
+    font-size: 2.5rem;
+    padding: .4rem 0;
+    padding-right: 2rem;
+} 
+
+a {
+    color: rgb(26, 20, 54);
+}
+
+p.job-desc {
+    font-size: 1.4rem;
+
+}
+
+ul.job-desc li {
+    line-height: 1.6rem;
+    padding-right: 10rem;
+    margin-left: 1.5rem;
+    font-size: 1.8rem;
+    user-select: text;
+}
+
 }
 
 @media screen and (width > 1900px) {
+
+
     .main-container {
         display: flex;
         margin-top: 2rem;
@@ -245,6 +369,53 @@ p.exp-title {
         white-space: break-spaces;
     
     }
+
+        /* ==================================================================*/
+    /* =====CONTENT=============*/
+
+    .paragraph-about p.p-about {
+        font-size: 3rem;
+        padding-right: 20rem;
+    }
+
+
+
+ .content-head {
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    text-align: start;
+    padding: 0;
+    padding-bottom: 1.5rem;
+}
+
+/*=========CV CONTENT============= */
+
+.job-section-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-content p {
+    font-size: 1.4rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+p.date {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    text-decoration: underline;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+
+p.exp-title {
+    font-family: 'Oswald', sans-serif;
+    display: flex;
+    text-align: left;
+    font-size: 2.6rem;
+} 
 }
 
 
