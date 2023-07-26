@@ -1,3 +1,7 @@
+.side-title {
+    color: rgba(143, 172, 146, 0.966);
+}
+
 @media screen and (width < 720px) {
     .main-container {
         padding-top: 2rem;
@@ -28,7 +32,6 @@
         display: flex;
         letter-spacing: 0.1rem;
         text-rendering: optimizeSpeed;
-        color: rgba(205, 205, 205, 0.772);
         user-select: none;
     }
     
@@ -157,7 +160,7 @@ p.link {
         justify-content: end;
         letter-spacing: -0.2rem;
         text-rendering: optimizeSpeed;
-        color: rgba(205, 205, 205, 0.772);
+        
         user-select: none;
         flex-grow: 1;
     }
@@ -272,7 +275,6 @@ ul.job-desc li {
         font-size: 6rem;
         letter-spacing: -0.2rem;
         text-rendering: optimizeSpeed;
-        color: rgb(192, 192, 192);
         white-space: nowrap;
         user-select: none;
     }
@@ -378,7 +380,6 @@ ul.job-desc li {
         font-size: 10rem;
         letter-spacing: -0.2rem;
         text-rendering: optimizeSpeed;
-        color: rgb(192, 192, 192);
         white-space: nowrap;
         user-select: none;
     }
