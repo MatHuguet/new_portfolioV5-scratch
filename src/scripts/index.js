@@ -1,6 +1,3 @@
-// import { contentData } from "./contentDatas.js";
-// console.log(contentData[0].content);
-
 const navItem = document.getElementsByClassName('nav-item');
 const sideTitle = document.getElementById('side-title');
 const content = document.getElementById('section-content')
@@ -139,56 +136,60 @@ const tools = "<h2 class='content-head'>Mes outils</h2>"
 
 const contact = 
 "<h2 class='content-head'>Contactez-moi !</h2>"
-+ "<p class='exp-title'>Par téléphone : 0687751576</p>"
-+ "<p class='exp-title'>Par email : <a href='mailto:huguet.mathieu@gmail.com'>huguet.mathieu@gmail.com</a></p>"
-+ "<p class='exp-title'>Sur Linkedin : <a href='https://www.linkedin.com/in/mathieu-huguet-b954371b9/' target='_blank' rel='noreferrer'><img class='icon' src='./src/img/icons8-linkedin-bw-96.png' alt='lien linkedin'/></a></p>"
++ "<p class='phone'>Par téléphone : "
++ "<br/>"
++ "<strong>0687751576</strong></p>"
++ "<br/>"
++ "<p class='mail'>Par email : "
++ "<br/>"
++ "<a href='mailto:huguet.mathieu@gmail.com'>huguet.mathieu@gmail.com</a></p>"
++ "<br/>"
++ "<p class='link'>Sur Linkedin : <a href='https://www.linkedin.com/in/mathieu-huguet-b954371b9/' target='_blank' rel='noreferrer'><img class='icon' src='./src/img/icons8-linkedin-bw-96.png' alt='lien linkedin'/></a></p>"
 
 // const cv = contentData[1].content;
 // const competences = contentData[2].content;
 // const outils = contentData[3].content;
 // const contact = contentData[4].content;
-
+sideTitle.innerText = 'A PROPOS';
+content.innerHTML = about;
     
 function displayAbout() {
     content.innerHTML = about
+    sideTitle.innerText = 'A PROPOS'
 }
 
 function displayCv() {
     content.innerHTML = cv
+    sideTitle.innerText = 'CV'
 }
 
 function displaySkills() {
     content.innerHTML = skills
+    sideTitle.innerText = 'COMPETENCES'
 }
 
 function displayTools() {
     content.innerHTML = tools
+    sideTitle.innerText = 'OUTILS'
 }
 
 function displayContact() {
     content.innerHTML = contact
+    sideTitle.innerText = 'CONTENT'
 }
 
 const attr = document.querySelectorAll('.nav-item');
 
 
 
-// attr.forEach(element => {
-//     element.addEventListener('click', () => {
-//         sideTitle.innerText = element.innerText;
-//         document.querySelector('.active').classList.remove('active');
-//         element.classList.add('active');
-//         switch(sideTitle.innerText) {
-//             case 'A PROPOS':
-//                 content.innerHTML = "hello a propos";
-//                 break;
-//             case 'CV':
-//                 content.innerHTML = "hello cv";
-//                 break;
-//         };
-//     })
+attr.forEach(element => {
+    element.addEventListener('click', () => {
+        sideTitle.innerText = element.innerText;
+        document.querySelector('.active').classList.remove('active');
+        element.classList.add('active');
+    })
 
-// });
+});
 
 
 
