@@ -8,7 +8,7 @@ const content = document.getElementById('section-content')
 
 const cv = "<h2 class='content-head'>Expériences professionelles</h2>"
 + "<div class='job-section-container'>"
-+ "<p class='date'>Du 08/2022 à aujourd'hui</p>
++ "<p class='date'>Du 08/2022 à aujourd'hui</p>"
 + "<p class='exp-title'>Fomation Développeur Web et Web mobile Fullstack</p>"
 + "<ul class='job-desc'>"
 + "<li>Plateforme en ligne Studi</li>"
