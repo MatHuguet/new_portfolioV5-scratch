@@ -6,7 +6,8 @@ const sideTitle = document.getElementById('side-title');
 const content = document.getElementById('section-content')
 
 
-
+const cv = "<p>Hello</p>"
+const skills = "<p>Hello skills</p>"
 
 
 
@@ -16,8 +17,12 @@ const content = document.getElementById('section-content')
 // const contact = contentData[4].content;
 
     
-function displayContent() {
-    content.innerHTML = "<p>Hello</p>"
+function displayCv() {
+    content.innerHTML = cv
+}
+
+function displaySkills() {
+    content.innerHTML = skills
 }
 
 const attr = document.querySelectorAll('.nav-item');
