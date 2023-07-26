@@ -6,7 +6,41 @@ const sideTitle = document.getElementById('side-title');
 const content = document.getElementById('section-content')
 
 
-const cv = "<p>Hello</p>"
+const cv = "<h2 class='content-head'>Expériences professionelles</h2>"
++ "<div class='job-section-container'>"
++ "<p class='date'>Du 08/2022 à aujourd'hui</p>
++ "<p class='exp-title'>Fomation Développeur Web et Web mobile Fullstack</p>"
++ "<ul class='job-desc'>"
++ "<li>Plateforme en ligne Studi</li>"
++ "</ul>"
++ "</div>"
++ "<div class='job-section-container'>"
++ "<p class='date'>Du Mars 2018 à Août 2022</p>"
++ "<p class='exp-title'>Régisseur général, hôtellerie/événementiel</p>"
++ "<ul class='job-desc'>"
++     "<li>Domaine de Cop Choux</li>"
++     "<li>Installation des équipements avant les événements</li>"
++     "<li>Mise en place de matériel technique et audiovisuel</li>"
++     "<li>Maintenance</li>"
++     "<li>Entretien intérieur et des espaces verts</li>"
++     "<li>Coordination des prestataires</li>"
++ "</ul>"
++ "</div>"
++ 
++ "<div class='job-section-container'>"
++ "<p class='date'>2016 à 2018</p>"
++ "<p class='exp-title'>Gérant HôtelF1 Angers Ouest</p>"
++ "<ul class='job-desc'>"
++     
++ "</ul>"
++ "</div>"
++ "<div class='job-section-container'>"
++ "<p class='date'>De 2011 à 2016</p>"
++ "<p class='exp-title'>Employé polyvalent jour/nuit</p>"
++ "<ul class='job-desc'>"
++ "</ul>"
++ "</div>"
+
 const skills = "<p>Hello skills</p>"
 
 
