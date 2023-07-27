@@ -3,6 +3,9 @@ const sideTitle = document.getElementById('side-title');
 const content = document.getElementById('section-content')
 
 const about = "<h2 class='content-head'>A propos de moi</h2>"
++ "<div class='img-container'>"
++ "<img class='photo' src='./src/img/profile-pic (10).png' alt='profile'/>"
++ "</div>"
 + "<br></br>"
 + "<div class='paragraph-about'>"
 + "<p class='p-about'>Je suis Mathieu, développeur junior. Après plus d'une dizaine d'année dans l'hôtellerie, je me suis reconverti dans le développement web et web mobile depuis peu.</p>"

@@ -9,6 +9,18 @@
         margin-bottom: 5rem;
     }
 
+    .img-container {
+        position: absolute;
+        width: 20%;
+        height: 10rem;
+        left: 70%;
+        top: 74%;
+    }
+
+    .photo {
+        width: 75px;
+    }
+
     .content-container {
         display: flex;
         justify-content: center;
