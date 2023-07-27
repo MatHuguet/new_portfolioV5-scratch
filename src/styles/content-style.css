@@ -288,6 +288,7 @@ ul.job-desc li {
         text-rendering: optimizeSpeed;
         white-space: nowrap;
         user-select: none;
+        
     }
     
     .section-content {

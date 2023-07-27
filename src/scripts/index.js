@@ -35,12 +35,10 @@ const cv = "<h2 class='content-head'>Expériences professionelles</h2>"
 +     "<li>Coordination des prestataires</li>"
 + "</ul>"
 + "</div>"
-+ 
 + "<div class='job-section-container'>"
 + "<p class='date'>2016 à 2018</p>"
 + "<p class='exp-title'>Gérant HôtelF1 Angers Ouest</p>"
 + "<ul class='job-desc'>"
-+     
 + "</ul>"
 + "</div>"
 + "<div class='job-section-container'>"
@@ -155,30 +153,36 @@ const contact =
 // const contact = contentData[4].content;
 sideTitle.innerText = 'A PROPOS';
 content.innerHTML = about;
+sideTitle.style.color = 'rgba(83, 113, 136, 0.5)'
     
 function displayAbout() {
     content.innerHTML = about
     sideTitle.innerText = 'A PROPOS'
+    sideTitle.style.color = 'rgba(83, 113, 136, 0.5)'
 }
 
 function displayCv() {
     content.innerHTML = cv
     sideTitle.innerText = 'CV'
+    sideTitle.style.color = 'rgba(203, 178, 121, 0.5)'
 }
 
 function displaySkills() {
     content.innerHTML = skills
     sideTitle.innerText = 'COMPETENCES'
+    sideTitle.style.color = 'rgba(130, 220, 115, 0.5)'
 }
 
 function displayTools() {
     content.innerHTML = tools
     sideTitle.innerText = 'OUTILS'
+    sideTitle.style.color = 'rgba(139, 126, 116, 0.5)'
 }
 
 function displayContact() {
     content.innerHTML = contact
     sideTitle.innerText = 'CONTENT'
+    sideTitle.style.color = 'rgba(255, 160, 150, 0.5)'
 }
 
 const attr = document.querySelectorAll('.nav-item');
