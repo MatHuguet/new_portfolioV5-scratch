@@ -361,7 +361,7 @@ ul.job-desc li {
 
 /* =========IPadTEST*/
 
-@media screen and (width > 1600px) {
+@media screen and (width > 1600px) and (width < 1700px) {
     body {
         background: blueviolet;
     }
