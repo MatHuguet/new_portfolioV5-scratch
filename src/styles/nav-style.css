@@ -138,6 +138,7 @@
     .nav-container {
         padding: 0;
         margin-top: 2rem;
+        position: fixed;
     }
 
     .nav-item > h4 {

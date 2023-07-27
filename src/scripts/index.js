@@ -145,7 +145,9 @@ const contact =
 + "<br/>"
 + "<a href='mailto:huguet.mathieu@gmail.com'>huguet.mathieu@gmail.com</a></p>"
 + "<br/>"
-+ "<p class='link'>Sur Linkedin : <a href='https://www.linkedin.com/in/mathieu-huguet-b954371b9/' target='_blank' rel='noreferrer'><img class='icon' src='./src/img/icons8-linkedin-bw-96.png' alt='lien linkedin'/></a></p>"
++ "<p class='link'>Sur Linkedin : "
++ "<br/>"
++ "<a href='https://www.linkedin.com/in/mathieu-huguet-b954371b9/' target='_blank' rel='noreferrer'><img class='icon' src='./src/img/icons8-linkedin-bw-96.png' alt='lien linkedin'/></a></p>"
 
 // const cv = contentData[1].content;
 // const competences = contentData[2].content;
@@ -153,36 +155,36 @@ const contact =
 // const contact = contentData[4].content;
 sideTitle.innerText = 'A PROPOS';
 content.innerHTML = about;
-sideTitle.style.color = 'rgba(83, 113, 136, 0.5)'
+sideTitle.style.color = 'rgba(27, 44, 65, 0.8)'
     
 function displayAbout() {
     content.innerHTML = about
     sideTitle.innerText = 'A PROPOS'
-    sideTitle.style.color = 'rgba(83, 113, 136, 0.5)'
+    sideTitle.style.color = 'rgba(27, 44, 65, 0.8)'
 }
 
 function displayCv() {
     content.innerHTML = cv
     sideTitle.innerText = 'CV'
-    sideTitle.style.color = 'rgba(203, 178, 121, 0.5)'
+    sideTitle.style.color = 'rgba(248, 111, 3, 0.8)'
 }
 
 function displaySkills() {
     content.innerHTML = skills
     sideTitle.innerText = 'COMPETENCES'
-    sideTitle.style.color = 'rgba(130, 220, 115, 0.5)'
+    sideTitle.style.color = 'rgba(36, 89, 83, 0.8)'
 }
 
 function displayTools() {
     content.innerHTML = tools
     sideTitle.innerText = 'OUTILS'
-    sideTitle.style.color = 'rgba(139, 126, 116, 0.5)'
+    sideTitle.style.color = 'rgba(43, 42, 76, 0.8)'
 }
 
 function displayContact() {
     content.innerHTML = contact
     sideTitle.innerText = 'CONTENT'
-    sideTitle.style.color = 'rgba(255, 160, 150, 0.5)'
+    sideTitle.style.color = 'rgb(240, 89, 69)'
 }
 
 const attr = document.querySelectorAll('.nav-item');

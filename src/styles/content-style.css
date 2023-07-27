@@ -185,6 +185,17 @@ p.link {
     
     }
 
+    .img-container {
+        position: relative;
+        display: flex;
+        justify-content: center;
+    }
+
+    .photo {
+        width: 300px;
+        margin-right: 5rem;
+    }
+
     /* ==================================================================*/
     /* =====CONTENT=============*/
 
@@ -261,6 +272,7 @@ ul.job-desc li {
         padding: 0;
         margin-top: 2rem;
         margin-bottom: 10rem;
+        padding-left: 20rem;
     }
 
     .content-container {
@@ -288,6 +300,7 @@ ul.job-desc li {
         text-rendering: optimizeSpeed;
         white-space: nowrap;
         user-select: none;
+        transition: .4s ease;
         
     }
     
@@ -301,9 +314,28 @@ ul.job-desc li {
         /* ==================================================================*/
     /* =====CONTENT=============*/
 
+
+    .img-container {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        height: 450px;
+        padding-bottom: 2.5rem;
+        padding-left: 2rem;
+    }
+
+    .photo {
+        width: 425px;
+        transform: translateX(5rem);
+
+    }
+
+
+
+
 .paragraph-about p.p-about {
         font-size: 2rem;
-        padding-right: 4.6rem;
+        padding-right: 4.8rem;
     }
 
 
@@ -377,6 +409,7 @@ ul.job-desc li {
         display: flex;
         margin-top: 2rem;
         padding: 0;
+        padding-left: 35rem;
     }
 
     .content-container {
@@ -418,7 +451,7 @@ ul.job-desc li {
 
     .paragraph-about p.p-about {
         font-size: 3rem;
-        padding-right: 20rem;
+        padding-right: 10rem;
     }
 
 
@@ -433,6 +466,18 @@ ul.job-desc li {
 }
 
 /*=========CV CONTENT============= */
+
+.img-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 500px;
+}
+
+.photo {
+    width: 500px;
+
+}
 
 .job-section-container {
     display: flex;
